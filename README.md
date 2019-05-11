@@ -1,6 +1,6 @@
-## CS 2400, Lab 2, Git/GitHub
+## CS 2400, Homework 1, Git/GitHub (Summer 2018-19)
 
-### 100 Points
+### 20 Points
 
 ### Prepared by: Nasseef Abukamail (abukamai@ohio.edu)
 
@@ -10,7 +10,7 @@
 
 Version control is the management of changes of projects (code) overtime. It is essential in team projects. As changes are made to a project, these changes need to be tracked.  The collection of the project and their changes overtime is called a repository (repo).
 
-## Repository (Repo)
+## Repository
 
 A repository includes a chronological record of all the changes made to a project. The repositories need to be stored on a server to be shared between team members. Services like GitHub are used to store repositories. Alternatively, an organization can set up their own servers to maintain their repositories.
 
@@ -20,11 +20,11 @@ Git is a free and open source tool (collection of commands) that is used for ver
 
 ---
 
-## Lab Assignment
+## Homework Assignment
 
 ---
 
-### Record your answers, where indicated, in a file called `answers.md`. Each answer is worth 5 points.
+### Record your answers, where indicated, in a file called `answers.md`. Each answer is worth 1 points.
 
 1. Create the project directory. Open a terminal window and issue the commands:
 
@@ -34,7 +34,7 @@ Git is a free and open source tool (collection of commands) that is used for ver
     cd git-lab
     ```
 
-2. Create two empty (Markdown files) `README.md` and `answers.md`. Markdown is similar to html but much simpler. Search online for a quick reference. Record all your answers for this lab in `answers.md`.
+2. Create two empty (Markdown files) `README.md` and `answers.md`. Markdown is similar to html but much simpler. Search online for a quick reference. Record all your answers for this homework in `answers.md`.
 
     ```console
     touch README.md
@@ -239,7 +239,7 @@ The `git clone` command downloads an existing repository to your local machine. 
     * Go to the new repo's directory and issue the `ls -a` command. Record the output as **`Answer 13`**.
     * The file `.gitignore` has a list of files that `git` will ignore when pushing the repo. For example, it ignores executable files.
 
-15. (35 points) Lets create a C++ program and update the online master branch.
+15. (7 points) Lets create a C++ program and update the online master branch.
 
     * In your editor, create the file `git-lab-program.cc`.
     * Copy the following code into it
