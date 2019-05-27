@@ -239,7 +239,7 @@ The `git clone` command downloads an existing repository to your local machine. 
     * Go to the new repo's directory and issue the `ls -a` command. Record the output as **`Answer 13`**.
     * The file `.gitignore` has a list of files that `git` will ignore when pushing the repo. For example, it ignores executable files.
 
-15. (7 points) Lets create a C++ program and update the online master branch.
+15. (7 points) Lets create a C++ program int `git-lab2` repository and update the online master branch.
 
     * In your editor, create the file `git-lab-program.cc`.
     * Copy the following code into it
